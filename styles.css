@@ -12,7 +12,27 @@ header {
   text-align: center;
 }
 
-
+.estado {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #28a745; /* Verde tipo "éxito" */
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+.estado.cedido {
+  background-color: #dc3545; /* Rojo Bootstrap */
+}
+.estado:hover {
+  background-color: #218838;
+  cursor: default;
+}
 #uniforme {
   margin-bottom: 2em;
 }
