@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipo de Fútbol</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header>
+        <img src="./img/logo.jpg" alt="Logo del equipo" class="logo" />
+        <h1>Bienvenidos al sitio oficial de Dificil FC</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#jugadores">Jugadores</a></li>
+            <li><a href="#partidos">Historial de Partidos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="historia">
+            <h2 class="centrado">Historia del Equipo</h2>
+            <p>
+                El equipo fue fundado en 2023 en Santa Marta. A lo largo de los años ha logrado grandes partidos a nivel
+                local, y ha tenido una evolución constante en el fútbol local/nacional/internacional...
+            </p>
+            <h2 class="centrado">Escudo</h2>
+            <div class="logo-container">
+                <img src="./img/logo.jpg" alt="Logo del equipo" class="logo-grande" />
+            </div>
+        </section>
+
+
+        <section id="jugadores">
+            <h2 class="centrado">Plantilla de Jugadores</h2>
+            <div class="jugadores-grid">
+
+                <div class="jugador">
+                    <img src="img/jugador1.jpg" alt="Jugador 1" class="jugador-img" />
+                    <h3>Augusto Ospino Rios</h3>
+                    <p class="posicion">Posición: Delantero</p>
+                    <p class="descripcion">Delantero letal en el área rival.</p>
+                    <p class="edad">Edad: 25 años</p>
+                    <p class="rol">Capitán</p>
+                </div>
+
+                <!-- Copiar más bloques como este para más jugadores -->
+                <div class="jugador">
+                    <img src="img/jugador1.jpg" alt="Jugador 2" class="jugador-img" />
+                    <h3>Nombre del Jugador</h3>
+                    <p class="posicion">Posición: Portero</p>
+                    <p class="descripcion">Reflejos rápidos y gran presencia bajo los tres palos.</p>
+                    <p class="edad">Edad: 25 años</p>
+                    <p class="rol">Subcapitán</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="uniforme">
+            <h2>Uniforme del Equipo</h2>
+            <div class="uniformes-container">
+                <div class="uniforme-item">
+                    <h3>Uniforme Local</h3>
+                    <img src="./img/uniforme-local.jpeg" alt="Uniforme Local" />
+                    <p>Colores principales: Rojo-Negro</p>
+                </div>
+                <div class="uniforme-item">
+                    <h3>Uniforme Visitante</h3>
+                    <img src="./img/uniforme-visitante.jpeg" alt="Uniforme Visitante" />
+                    <p>Colores principales: Amarillo-Negro</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="partidos">
+            <h2 class="centrado">Historial de Partidos</h2>
+            <div class="tabla-responsiva">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Rival</th>
+                            <th>Resultado</th>
+                            <th>Lugar</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15/10/2025</td>
+                            <td>Polado FC</td>
+                            <td>5 - 5</td>
+                            <td>Estadio neutro</td>
+                            <td bgcolor="gray">Empate</td>
+                        </tr>
+
+                        <!-- Agrega más filas aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dificil FC. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
